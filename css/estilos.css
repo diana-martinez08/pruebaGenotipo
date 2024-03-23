@@ -1,0 +1,351 @@
+header .navbar {
+    background-color: #1C156D;
+}
+
+.inicio {
+    background: linear-gradient(to bottom,  #1C156D, #3A2FB9);
+}
+
+header .nav-link {
+    color: white;
+    font-size: 15px;
+}
+
+.tel {
+    fill: white;
+    display: block;
+    margin: auto;
+    margin-right: 10px;
+}
+.tel2 {
+    fill: #F26522;
+    display: block;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.numero {
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-right: 20px;
+}
+.numero2 {
+    color: black;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.Bcontacto {
+    background-color: #F26522;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 42px;
+}
+
+.texto1 {
+    color: #F26522;
+    font-size: 50px;
+    display: block;
+}
+.texto2 {
+    color: #fff;
+    font-size: 50px;
+    display: block;
+}
+.texto3 {
+    color: #fff;
+    font-size: 20px;
+    display: block;
+}
+.texto4 {
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    text-align: justify;
+}
+
+.whats {
+    position: fixed;
+    top: 80px;
+    right: 15px;
+    background-color: #25D366;
+    color: white;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+.whats i.whatsapp-icon {
+    color: white;
+}
+
+
+.parte2 {
+    background-color: #1C156D; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+    font-size: 18px; 
+}
+
+.check1 {
+    fill: #00CE90;
+    margin: auto;
+    margin-right: 10px;
+    /* display: block; */
+}
+.check {
+    fill: #00CE90;
+    width: 24px;
+    height: 24px;
+}
+.check2 {
+    fill: #00CE90;
+    /* width: 24px;
+    height: 24px; */
+}
+
+.parte3 {
+    background-color: #ffff; 
+    text-align: center;
+}
+
+.texto5 {
+    color: #372CBB;
+    font-size: 18px;
+    display: block;
+    text-align: justify;
+}
+.texto6 {
+    color: #6F6F71;
+    font-size: 15px;
+    display: block;
+    text-align: justify;
+}
+
+.parte4 {
+    background-color: #F5F5F5; 
+}
+
+.texto7 {
+    font-size: 30px;
+    background: linear-gradient(to right, #1C156D, #6054EA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Binteresa {
+    background-color: #372CBB;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 42px;
+    width: 125px;
+    height: 35px;
+}
+
+.texto8 {
+    color: #282829;
+    font-size: 22px;
+    text-align: center;
+}
+
+.circle {
+    width: 70px;
+    height: 70px; 
+    background-color: #372CBB;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.calendar {
+    width: 24px; 
+    height: 24px; 
+    fill: #fff;
+}
+
+.naranja {
+    background-color: #F26522;
+}
+
+.azul {
+    background-color: #1C156D;
+}
+
+.parte5 {
+    background: linear-gradient(to right, #F26522 50%, #1C156D 50%);
+}
+
+.texto9 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.texto10 {
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+
+
+
+/* configuracion de SLIDER  */
+  .slider {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider .slide-track {
+    display: flex;
+    /* animation: scroll 40s linear infinite; */
+    /* -webkit-animation: scroll 40s linear infinite; */
+    width: calc(250px * 12);
+  }
+
+  .slider .slide {
+    width: 250px;
+  }
+
+  .slider .slide img {
+    width: 70%;
+  }
+
+  .left-slider .slide-track {
+    animation: scrollLeft 40s linear infinite;
+}
+
+.right-slider .slide-track {
+    animation: scrollRight 40s linear infinite;
+}
+
+
+  @keyframes  scrollLeft{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-250px * 6));
+        transform: translateX(calc(-250px * 6));
+    }
+  }
+  
+  @keyframes  scrollRight{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(250px * 6));
+        transform: translateX(calc(250px * 6));
+    }
+  }
+
+  .Bmas {
+    background-color: #6DBC45;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 42px;
+    width: 85px;
+    height: 35px;
+}
+  .Bagregar {
+    background-color: #6DBC45;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 42px;
+    width: 300px;
+    height: 45px;
+}
+
+.card-title {
+    color: black;
+    font-size: 18px;
+    text-align: start;
+}
+ 
+.imgCor {
+    width: 170px;
+    height: 60px;
+    text-align: start;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.parte6 {
+    background-color: #282829; 
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/* TABLA PARA MOSTRAR LOS ARTICULOS DE ALTA  */
+
+.custom-table thead th {
+    background-color: #3A2FB9;
+    color: #fff;
+    font-size: 20px;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #94a9b9;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e5e5e5;
+}
+
+/* --------ESTILOS DE LAS CARD------------ */
+
+    .card-container {
+        text-align: center;
+        /* white-space: nowrap; */
+        /* overflow-x: auto; */
+    }
+    
+    .card {
+        width: 260px; 
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 135px;
+    }
+    .card-img-top {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+        width: 100%;
+        height: 200px; 
+    }
+
+    .card-title {
+        font-size: 18px; 
+        color: #282829; 
+        margin-top: 10px;
+        text-align: left;
+    }
+    
+    .card-text {
+        font-size: 15px; 
+        color: #6F6F71; 
+        text-align: start;
+    }
